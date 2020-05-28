@@ -65,3 +65,54 @@
   vertical-align: middle;
   margin: 0 1rem;
 }
+
+/*CONTENT STYLES*/
+.content {
+  background: url(assets/wedding-landing-background-white.png);
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #444349;
+}
+
+/*Locations styles*/
+.locations {
+  font-family: 'Libre Baskerville', serif;
+  margin: 0 auto;
+  padding: 0.625rem;
+}
+
+.main-headline {
+  font-family: 'Great Vibes', cursive;
+  padding: 1rem;
+  font-size: 3.625rem;
+  padding: 3rem;
+  font-weight: 500;
+}
+
+.locations h3 {
+  font-weight: 700;
+  font-size: 1.425rem;
+  padding-bottom: 1.625rem
+}
+
+.locations img {
+  width: 60%;
+  height: auto;
+}
+
+.locations p {
+  font-size: 1.125rem;
+  padding: 1.625rem;
+}
+
+p::after {
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 3px;
+  width: 7rem;
+  margin: 1rem auto;
+}
