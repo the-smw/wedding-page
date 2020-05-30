@@ -12,6 +12,16 @@
   text-align: center;
   display: table;
 }
+@media (min-width: 768px) {
+  .cover {
+    background: url(assets/wedding-landing-cover.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  .event {
+    width: 45%;
+  }
+}
 
 .wrapper {
   display: table-cell;
@@ -112,12 +122,29 @@
   margin: 1rem auto;
 }
 
+@media (min-width: 768px) {
+  .place {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .locations p::after {
+    display: none;
+  }
+  
+  .locations img {
+    width: 25%;
+    height: auto;
+  }
+}
+
 /*Program styles*/
 .program {
   width: 100vw;
   background-color: hsla(100,0%,0%,.6);
   color: #d2ba87;
-  text-align: center;
+  text-align: left;
   font-size: 1.125rem;
   padding: 1.625rem;
 }
@@ -126,6 +153,17 @@
   margin-bottom: 1rem;
   font-weight: 900;
   font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+@media (min-width: 768px) {
+  .program {
+    margin: 0 auto;
+  }
 }
 
 /*Gifts styles*/
@@ -139,6 +177,13 @@
   width: 40%;
   height: auto;
   margin: 2rem auto;
+}
+
+@media (min-width: 768px) {
+  .gifts img {
+    width: 10%;
+    height: auto;
+  }
 }
 
 /*Q&A Styles*/
@@ -188,6 +233,19 @@ article::after {
   }
 }
 
+@media (min-width: 768px) {
+  .travel, .food, .other {
+    width: 33%;
+    display: inline-block;
+    padding: .5rem;
+    vertical-align: top;
+  }
+  
+  article::after {
+    display: none;
+  }
+}
+
 /*Contact Styles*/
 .contact {
   padding: 1.625rem;
@@ -198,7 +256,7 @@ article::after {
 .footer {
   background-color: #606060;
   color: #fffaf0;
-  height: 7vh;
+  height: 10vh;
   width: 100vw;
   display: table;
   text-align: center;
@@ -220,6 +278,13 @@ article::after {
 .footer small {
   letter-spacing: .025rem;
   font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    height: 5vh;
+    font-size: .8rem;
+  }
 }
 
 /*LINK STYLES*/
