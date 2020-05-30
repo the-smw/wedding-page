@@ -163,6 +163,7 @@ ul {
 @media (min-width: 768px) {
   .program {
     margin: 0 auto;
+    text-align: center;
   }
 }
 
