@@ -117,7 +117,7 @@
   width: 100vw;
   background-color: hsla(100,0%,0%,.6);
   color: #d2ba87;
-  text-align: left;
+  text-align: center;
   font-size: 1.125rem;
   padding: 1.625rem;
 }
@@ -183,7 +183,51 @@ article::after {
 
 @media (max-width:420px) {
   #smaller {
-    font-size: 2.7754rem;
-    padding: .5rem;
+    font-size: 2.3rem;
+    padding: .3rem;
   }
+}
+
+/*Contact Styles*/
+.contact {
+  padding: 1.625rem;
+  font-size: 1.125rem;
+}
+
+/*FOOTER STYLES*/
+.footer {
+  background-color: #606060;
+  color: #fffaf0;
+  height: 7vh;
+  width: 100vw;
+  display: table;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: .85rem;
+  padding: .3rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footer p {
+  padding: .3rem;
+  line-height: 1.5rem;
+}
+
+.footer small {
+  letter-spacing: .025rem;
+  font-weight: 800;
+}
+
+/*LINK STYLES*/
+a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eda087;
 }
